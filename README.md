@@ -126,6 +126,7 @@ We follow the approach used in https://arxiv.org/abs/2202.11908 , using neural m
 - [Number of pairs of functions (f,g) from a set of n elements into itself satisfying f(x) = f(g(f(x))).](#number-of-pairs-of-functions-fg-from-a-set-of-n-elements-into-itself-satisfying-fx--fgfx)
 - [Domb numbers: number of 2n-step polygons on diamond lattice.](#domb-numbers-number-of-2n-step-polygons-on-diamond-lattice)
 - [Convolution of primes with themselves.](#convolution-of-primes-with-themselves)
+- [a(n) = Sum_{d|n} sigma(n/d)*d^3.](#an--sum_dn-sigmandd3)
 
 ### Number of Hamiltonian paths in the n-Bruhat graph.
 https://oeis.org/A317485 : 0 1 6 4128
