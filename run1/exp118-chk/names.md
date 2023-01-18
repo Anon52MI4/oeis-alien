@@ -1,0 +1,588 @@
+https://oeis.org/A303977 Number of inequivalent solutions to problem discussed in A286874.
+
+https://oeis.org/A160771 Erroneous version of A040976.
+
+https://oeis.org/A126167 Number of primitive exponential amicable pairs (i,j) with i<j and i<=10^n.
+
+https://oeis.org/A46337 Odd numbers with an even number of prime factors (counted with multiplicity).
+
+https://oeis.org/A197635 Wieferich-non-Wilson primes: non-Wilson primes that divide their Fermat-Wilson quotient A197633.
+
+https://oeis.org/A57215 [1->01, 2->10, 3->01]-transform of 3-symbol Thue-Morse A026600.
+
+https://oeis.org/A257601 a(n) = (n^4 + 20\*n^3 + 125\*n^2 + 250\*n + 24)/12.
+
+https://oeis.org/A61824 Multiples of 8 containing only the digits 0, ..., 8.
+
+https://oeis.org/A26605 [3->null]-transform of three-symbol Thue-Morse A026600
+
+https://oeis.org/A276073 A276076-polynomials evaluated at x=2: a(n) = A048675(A276076(n)).
+
+https://oeis.org/A89586 Number of arborescent (stellar-rational or prysmatic-rational) knots and links.
+
+https://oeis.org/A44568 Numbers n such that string 0,0 occurs in the base 8 representation of n but not of n+1.
+
+https://oeis.org/A338623 a(n) is the length of the longest block of consecutive terms appearing twice (possibly with overlap) among the first n terms of the Thue-Morse sequence (A010060).
+
+https://oeis.org/A57125 Numbers n such that 3 is a square mod n.
+
+https://oeis.org/A57758 Duplicate of A057125.
+
+https://oeis.org/A210527 a(n) = 9\*n^2 + 39\*n + 83.
+
+https://oeis.org/A217529 a(n) = 2^(n-4)\*(4\*n^2 - 16\*n + 23).
+
+https://oeis.org/A23797 Katadromes: digits in base 16 are in strict descending order.
+
+https://oeis.org/A5019 The number of n X n (0,1)-matrices with a 1-width of 1.
+
+https://oeis.org/A114334 Divisors of 6^6.
+
+https://oeis.org/A268462 Expansion of (2 x^4\*(5 - 12\*x + 8\*x^2))/(1 - 2\*x)^4.
+
+https://oeis.org/A244780 Positive numbers primitively represented by the binary quadratic form (1, 1, 3).
+
+https://oeis.org/A113051 a(1) = a(2) = 1; for n>2, a(n+1) = a(n) + a(n-1) iff a(n) is prime, otherwise a(n+1) = a(n) + 1.
+
+https://oeis.org/A227070 Powers n such that the set s(n) = {k > 0 such that k^n ends with k} does not occur for smaller n.
+
+https://oeis.org/A246591 Smallest number that can be obtained by swapping 2 bits in the binary expansion of n.
+
+https://oeis.org/A131863 Numbers m such that A131851(m) < 0.
+
+https://oeis.org/A269156 Smallest sum of length of edges and diagonals of an integer polygon with n vertices.
+
+https://oeis.org/A187974 Positions of 1 in A187972; complement of A187973.
+
+https://oeis.org/A143299 Number of terms in the Zeckendorf representation of every number in row n of the Wythoff array.
+
+https://oeis.org/A133806 Alternate terms of A131708 and A000079.
+
+https://oeis.org/A18420 Divisors of 374.
+
+https://oeis.org/A55043 Numbers of the form 2^(2i+1)\*(8\*j+3).
+
+https://oeis.org/A138357 Floor of sum of the first n^2 square roots.
+
+https://oeis.org/A43730 Numbers n such that number of runs in the base 2 representation of n is congruent to 2 mod 5.
+
+https://oeis.org/A256178 Expansion of exp( Sum_{n >= 1} L(2\*n)\*L(4\*n)\*x^n/n ), where L(n) = A000032(n) is a Lucas number.
+
+https://oeis.org/A171733 a(2n)=A165568(n). a(2n+1)=A165563(n).
+
+https://oeis.org/A95111 One minus the parity of 1-fibits in Zeckendorf expansion A014417(n).
+
+https://oeis.org/A348706 Delete all 0's from ternary expansion of n.
+
+https://oeis.org/A37956 a(n) = binomial(n, floor((n-4)/2)).
+
+https://oeis.org/A109853 a(n) = A109852(2^n).
+
+https://oeis.org/A254111 One-based column index of n in A254105: If A234017(n) = 0, then a(n) = 1, otherwise a(n) = 1 + a(A234017(n)).
+
+https://oeis.org/A61853 Difference between smallest prime not dividing n and smallest nondivisor of n.
+
+https://oeis.org/A104105 a(1) = 1, if A(k) = sequence of first 2^k -1 terms and if B(k) is A(k) with 0's and 1's exchanged, then A(k+1) = A(k),1,B(k) if a(k) = 0, A(k+1) = A(k),0,B(k) if a(k) = 1.
+
+https://oeis.org/A188468 Positions of 0 in A188467.
+
+https://oeis.org/A171157 Number of distinct primes > 3 that divide n.
+
+https://oeis.org/A117660 Number of solutions to x^(k+3)=x^k mod n for some k>=1.
+
+https://oeis.org/A89262 a(n) = 2^floor(log_2(n)) - 2^floor(log_2(n\*2/3)).
+
+https://oeis.org/A102494 Numbers in base-60 representation that cannot be written with decimal digits.
+
+https://oeis.org/A297265 Numbers whose base-8 digits have equal down-variation and up-variation; see Comments.
+
+https://oeis.org/A11596 Legendre symbol (n,67).
+
+https://oeis.org/A93260 a(n) is the largest number such that all of a(n)'s length-n substrings are distinct and divisible by 60.
+
+https://oeis.org/A106747 Replace each odd digit d of n with (d-1)/2 and each even digit d with d/2.
+
+https://oeis.org/A84311 a(n) = gcd(prime(n)-1,n-1).
+
+https://oeis.org/A132175 Index of end of n-th generation of terms in A063882.
+
+https://oeis.org/A262808 Triangle read by rows giving successive states of cellular automaton generated by "Rule 147" initiated with a single ON (black) cell.
+
+https://oeis.org/A153776 Sequence S such that 1 is in S and if x is in S, then 5x-3 and 5x-1 are in S.
+
+https://oeis.org/A57815 a(n) = gcd(n,binomial(n,floor(n/2))).
+
+https://oeis.org/A336339 Numbers composite(n) such that gcd(n,composite(n)) is even.
+
+https://oeis.org/A17976 Powers of sqrt(24) rounded down.
+
+https://oeis.org/A133216 Integers that are simultaneously triangular (A000217) and decagonal (A001107).
+
+https://oeis.org/A41360 Numerators of continued fraction convergents to sqrt(194).
+
+https://oeis.org/A83787 Sequence contains the prime signature pertaining to the n-th row of A083785.
+
+https://oeis.org/A322923 Primes of the form 3\*p + 4, where p is a prime.
+
+https://oeis.org/A85912 Group the natural numbers such that the product of the terms of the n-th group is divisible by n!. (1),(2),(3,4),(5,6,7,8),(9,10,11,12),(13,14,15,16,17,18),(19,20,21,22,23,24),... Sequence contains the product pertaining to groups.
+
+https://oeis.org/A216361 a(n) = (A216315(n) - 1)/118.
+
+https://oeis.org/A136333 Numbers containing only digits coprime to 10 in their decimal representation.
+
+https://oeis.org/A111946 Triangle read by rows: T(n,k) = gcd(Fibonacci(n), Fibonacci(k)), 1 <= k <= n.
+
+https://oeis.org/A126289 a(1) = 1, a(2) = 1, a(n) = n \* LargestPrimeFactor(n-1) / LargestPrimeFactor(n).
+
+https://oeis.org/A82690 Denominator of n\*sum(k=1,(-1)^(k+1)/(n+k)).
+
+https://oeis.org/A40355 Continued fraction for sqrt(375).
+
+https://oeis.org/A146091 a(n) = 3\*A146085(n) - 2.
+
+https://oeis.org/A30076 a(n) = 10 - m, where m = maximal digit of n.
+
+https://oeis.org/A167171 Squarefree semiprimes together with primes.
+
+https://oeis.org/A293523 Persistently squarefree numbers for base-3 shifting: Numbers n such that all terms in finite set of positive numbers [n, floor(n/3), floor(n/9), floor(n/27), ..., floor(n/3^k)>0] are squarefree.
+
+https://oeis.org/A289236 Square array a(p,q) read by antidiagonals: a(p,q) = the number of line segments that constitute the trajectory of a billiard ball on a pool table with dimensions p X q, before the ball reaches a corner.
+
+https://oeis.org/A86154 a(n) = C(3^n,2^n).
+
+https://oeis.org/A177940 Decimal expansion of 190/89.
+
+https://oeis.org/A14061 Inverse of 52nd cyclotomic polynomial.
+
+https://oeis.org/A181173 Primes whose base 5 representation does not contain a 0.
+
+https://oeis.org/A16334 140th cyclotomic polynomial.
+
+https://oeis.org/A14053 Inverse of 44th cyclotomic polynomial.
+
+https://oeis.org/A213500 Rectangular array T(n,k):  (row n) = b\*\*c, where b(h) = h, c(h) = h + n - 1, n >= 1, h >= 1, and \*\* = convolution.
+
+https://oeis.org/A152204 Triangle read by rows: T(n,k) = 2\*n-4\*k+5 (n >= 0, 1 <= k <= 1+floor(n/2)).
+
+https://oeis.org/A106740 Triangle read by rows: greatest common divisors of pairs of Fibonacci numbers greater than 1: T(n, k) = gcd(Fibonacci(n), Fibonacci(k)).
+
+https://oeis.org/A119900 Triangle read by rows: T(n,k) is the number of binary words of length n with k strictly increasing runs, for 0<=k<=n.
+
+https://oeis.org/A71697 Product of twin primes of form (4\*k+1,4\*k+3), k>0.
+
+https://oeis.org/A127013 Triangle read by rows: reversal of A126988.
+
+https://oeis.org/A16359 220th cyclotomic polynomial.
+
+https://oeis.org/A126684 Union of A000695 and 2\*A000695.
+
+https://oeis.org/A243987 Triangle read by rows: T(n, k) is the number of divisors of n that are less than or equal to k for 1 <= k <= n.
+
+https://oeis.org/A33820 Triangle read by rows: T(k,j) = ((2\*j+1)/(k+1))\*binomial(2\*j,j)\*binomial(2\*k-2\*j,k-j).
+
+https://oeis.org/A51459 Number of orderings of the subsets of a set with n elements that are compatible with the subsets' sizes; i.e., if A, B are two subsets with A <= B then Card(A) <= Card(B).
+
+https://oeis.org/A54445 Triangle read by rows giving partial row sums of triangle A033184(n,m), n >= m >= 1 (Catalan triangle).
+
+https://oeis.org/A59365 Another version of the Catalan triangle: T(r,s) = binomial(2\*r-s-1,r-1) - binomial(2\*r-s-1,r), r>=0, 0 <= s <= r.
+
+https://oeis.org/A269840 Lesser of twin primes where both are the sum of 3 nonzero squares.
+
+https://oeis.org/A268477 Balanced odious primes: primes with an odd number of runs of 1's in their binary expansion.
+
+https://oeis.org/A285529 Triangle read by rows: T(n,k) is the number of nodes of degree k counted over all simple labeled graphs on n nodes, n>=1, 0<=k<=n-1.
+
+https://oeis.org/A203998 Symmetric matrix based on f(i,j)=max{i(j+1)-1,j(i+1)-1}, by antidiagonals.
+
+https://oeis.org/A336829 a(n) = Sum_{k=0..n} binomial(n+k,k)^n.
+
+https://oeis.org/A295612 a(n) = Sum_{k=0..n} binomial(n+k,k)^k.
+
+https://oeis.org/A131424 Triangle read by rows: T(n,k) = prime(n) + prime(k) - 3, 1 <= k <= n.
+
+https://oeis.org/A204207 Triangle based on (1,2,3) averaging array.
+
+https://oeis.org/A66320 Triangle: T(n,k)=C(n,k)\*k^k\*(n-k)^(n-k-1) k=0..n-1.
+
+https://oeis.org/A84309 a(n) = gcd(prime(n)-1, n).
+
+https://oeis.org/A161119 Triangle read by rows: T(n,k) is the number of fixed-point-free involutions of {1,2,...,2n} having k cycles with entries of opposite parities (0 <= k <= n).
+
+https://oeis.org/A276984 Sum of squares of numbers less than n that do not divide n.
+
+https://oeis.org/A317933 Numerators of rational valued sequence whose Dirichlet convolution with itself yields A034444 (number of unitary divisors of n).
+
+https://oeis.org/A92144 A092143(n!)/n!.
+
+https://oeis.org/A152211 a(n) = n \* sigma_0(n) + sigma_1(n).
+
+https://oeis.org/A65946 Bessel polynomial {y_n}''(-2).
+
+https://oeis.org/A325940 Expansion of Sum_{k>=1} x^(2\*k) / (1 + x^k)^2.
+
+https://oeis.org/A323606 Decimal expansion of 25146/15625.
+
+https://oeis.org/A297053 Sum of the larger parts of the partitions of n into two parts such that the smaller part does not divide the larger.
+
+https://oeis.org/A272027 a(n) = 3\*sigma(n).
+
+https://oeis.org/A199084 a(n) = Sum_{k=1..n} (-1)^(k+1) gcd(k,n).
+
+https://oeis.org/A291807 The number of symmetric polyomino tilings of n X n square.
+
+https://oeis.org/A6943 Rows of Sierpiński's triangle (Pascal's triangle mod 2).
+
+https://oeis.org/A65948 Bessel polynomial {y_n}''(-3).
+
+https://oeis.org/A175803 a(n) = 2^(prime(n)-2) mod prime(n+2).
+
+https://oeis.org/A245579 Number of odd divisors of n multiplied by n.
+
+https://oeis.org/A143151 Triangle read by rows, A051731 \* (A020639 \* 0^(n-k)), 1<=k<=n.
+
+https://oeis.org/A237588 Sigma(n) - 2n + 1.
+
+https://oeis.org/A204678 Number of n X 1 0..3 arrays with no occurrence of three equal elements in a row horizontally, vertically, diagonally or antidiagonally, and new values 0..3 introduced in row major order.
+
+https://oeis.org/A302352 a(n) = Sum_{k=0..n} k^4\*binomial(2\*n-k,n).
+
+https://oeis.org/A2659 a(n) = 2\*sigma(n) - 1.
+
+https://oeis.org/A308038 a(n) = Sum_{i=1..floor((n-1)/2)} i \* (n-i)^2.
+
+https://oeis.org/A334136 a(n) = (n-1)\*sigma(n) where sigma is the sum of divisors A000203.
+
+https://oeis.org/A326125 Expansion of Sum_{k>=1} k^2 \* x^k / (1 + x^k)^2.
+
+https://oeis.org/A78181 a(n) = Sum_{d|n, d==1(mod 3)} d.
+
+https://oeis.org/A50449 a(n) = Sum_{d|n, d==1 (mod 4)} d.
+
+https://oeis.org/A143520 a(n) is n times number of divisors of n if n is odd, zero if n is twice odd, n times number of divisors of n/4 if n is divisible by 4.
+
+https://oeis.org/A23860 a(n) = 1\*t(n) + 2\*t(n-1) + ... + k\*t(n+1-k), where k=floor((n+1)/2), t = A000045 (Fibonacci numbers).
+
+https://oeis.org/A134156 a(n) = 2\*tau(n) - n, where tau(n) is the number of divisors of n (A000005).
+
+https://oeis.org/A168014 Sum of all parts of all partitions of n into equal parts that do not contain 1 as a part.
+
+https://oeis.org/A67558 Sum of squares of proper divisors of n.
+
+https://oeis.org/A317133 G.f.: Sum_{n>=0} binomial(4\*(n+1), n)/(n+1) \* x^n / (1+x)^(n+1).
+
+https://oeis.org/A326238 Expansion of Sum_{k>=1} k \* x^k \* (1 - x^k) / (1 + x^k)^3.
+
+https://oeis.org/A119930 Sum of the numbers of the matrix A111490 along a boustrophedon path: a11, a11+a12, a11+a12+a21, etc.
+
+https://oeis.org/A7435 Inverse Moebius transform of Fibonacci numbers 1,1,2,3,5,8,...
+
+https://oeis.org/A163180 a(n) = tau(n) + Sum_{k=1..n} (n mod k).
+
+https://oeis.org/A295239 Expansion of e.g.f. 2/(1 + sqrt(1 + 4\*x\*exp(x))).
+
+https://oeis.org/A64987 a(n) = n\*sigma(n).
+
+https://oeis.org/A34729 a(n) = Sum_{ k, k|n } 2^(k-1).
+
+https://oeis.org/A245076 E.g.f.: Sum_{n>=0} exp(n\*5^n\*x) \* x^n/n!.
+
+https://oeis.org/A70824 Number of divisors of n which are > 1 and < n (nontrivial divisors).
+
+https://oeis.org/A98274 Sum_{k = 0..n} C(n, k)^2\*C(n+k, n)\*C(n+2\*k, n).
+
+https://oeis.org/A134871 a(1) = 1, a(n) = tau(n) + n - 2 for n > 1.
+
+https://oeis.org/A261207 Expansion of (x-1)/8 - (x^2-4\*x-1)/(8\*sqrt(x^2-6\*x+1)).
+
+https://oeis.org/A330866 a(n) = Sum_{d|n, d<n} (n/d) \* (n-d).
+
+https://oeis.org/A344483 a(n) = n^2 + sigma(n) - n\*d(n).
+
+https://oeis.org/A297024 Sum of the smaller parts of the partitions of n into two parts such that the smaller part does not divide the larger.
+
+https://oeis.org/A97627 Number of rooted directed trees on n nodes with a red root.
+
+https://oeis.org/A129707 Number of inversions in all Fibonacci binary words of length n.
+
+https://oeis.org/A38048 a(n) = (n-1)! \* sigma(n).
+
+https://oeis.org/A275289 Number of set partitions of [n] with symmetric block size list of length three.
+
+https://oeis.org/A113240 Expansion of (1/(1-x))\*sum(k>=2,x^k/(1-2x^k)).
+
+https://oeis.org/A349335 G.f. A(x) satisfies: A(x) = 1 + x \* A(x)^8 / (1 - x).
+
+https://oeis.org/A151093 Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, -1, 0), (-1, 0, -1), (1, 0, 0), (1, 0, 1), (1, 1, 0)}
+
+https://oeis.org/A91570 Sum of odd proper divisors of n. Sum of the odd divisors of n that are less than n.
+
+https://oeis.org/A274535 a(n) = 5\*sigma(n).
+
+https://oeis.org/A349364 G.f. A(x) satisfies: A(x) = 1 + x \* A(x)^8 / (1 + x).
+
+https://oeis.org/A318249 a(n) = (n - 1)! \* d(n), where d(n) = number of divisors of n (A000005).
+
+https://oeis.org/A69153 a(n) = Sum_{d|n} d\*(d-1)/2.
+
+https://oeis.org/A30237 Catalan's triangle with right border removed (n > 0, 0 <= k < n).
+
+https://oeis.org/A323768 a(n) = Sum_{k=0..floor(n/2)} binomial(n-k,k)^k.
+
+https://oeis.org/A29880 Inverse binomial transform of Thue-Morse sequence A001285.
+
+https://oeis.org/A278472 a(n) = Sum_{i=0..n} Fibonacci(i+1)\*binomial(2\*n-i+2, n+2).
+
+https://oeis.org/A23870 a(n) = 1\*prime(n) + 2\*prime(n-1) + ... + k\*prime(n+1-k), where k=floor((n+1)/2) and prime(n) is the n-th prime.
+
+https://oeis.org/A24859 Duplicate of A023870.
+
+https://oeis.org/A23628 Convolution of (1, p(1), p(2), ...) and (F(2), F(3), F(4), ...).
+
+https://oeis.org/A305577 a(n) = Sum_{k=0..n} k!!\*(n - k)!!.
+
+https://oeis.org/A53729 Self-convolution of 1,4,27,256,3125,46656,... (cf. A000312).
+
+https://oeis.org/A115607 Sum of odd divisors of n times (-1)^(n+1).
+
+https://oeis.org/A295611 a(n) = Sum_{k=0..n} (-1)^k\*binomial(n,k)^k.
+
+https://oeis.org/A172067 Expansion of (2/(3\*sqrt(1-4\*z)-1+4\*z))\*((1-sqrt(1-4\*z))/(2\*z))^k with k=10.
+
+https://oeis.org/A213282 G.f. satisfies: A(x) = G(x/(1-x)^3) where G(x) = 1 + x\*G(x)^3 is the g.f. of A001764.
+
+https://oeis.org/A136557 a(n) = Sum_{k=0..n} binomial(2^k + n-k-1, k).
+
+https://oeis.org/A101552 C(n-3,3)+C(n-7,7)+...+C(n-(4\*floor((n-4)/4)+3),4\*floor((n-4)/4)+3).
+
+https://oeis.org/A180678 The Ze2 sums of the Pell-Jacobsthal triangle A013609.
+
+https://oeis.org/A243290 The index of the greatest prime dividing the n-th squarefree number: a(n) = A061395(A005117(n)).
+
+https://oeis.org/A87906 a(n) = Sum_{d|n} (n-1)!/(d-1)!.
+
+https://oeis.org/A105872 a(n) = Sum_{k=0..floor(n/2)} C(2n-3k, n).
+
+https://oeis.org/A75995 a(n) = Sum_{k=1..floor(n/2)} floor(n/k) for n >= 2, with a(1) = 1.
+
+https://oeis.org/A188387 Central coefficient in (1 + (2^n+1)\*x + 2^n\*x^2)^n for n>=0.
+
+https://oeis.org/A58810 The sequence lambda(n,n), where lambda is defined in A055203.
+
+https://oeis.org/A143152 Inverse Möbius transform of the least prime factor of n: A051731 \* A020639.
+
+https://oeis.org/A9565 Expansion of e.g.f. sinh(exp(x)\*x).
+
+https://oeis.org/A77024 a(n) = Sum_{k=1..n} floor(n/k + 1/2).
+
+https://oeis.org/A10756 Sum along upward diagonal of Pascal triangle from (but not including) center.
+
+https://oeis.org/A237670 Inverse Moebius transform of Catalan numbers.
+
+https://oeis.org/A113978 a(n)=Sum(d|n)(10^(n-d)).
+
+https://oeis.org/A168358 Self-convolution square of A001246, which is the squares of Catalan numbers.
+
+https://oeis.org/A186812 Expansion of 1/(1-x^6-3\*x^5-4\*x^4-3\*x^3-2\*x^2-x).
+
+https://oeis.org/A23608 Convolution of Fibonacci numbers and (1, prime(1), prime(2), ...).
+
+https://oeis.org/A23615 Convolution of Fibonacci numbers and primes.
+
+https://oeis.org/A332849 a(n) = prime(n)^prime(n+1) + prime(n) + prime(n+1).
+
+https://oeis.org/A306859 a(n) = Sum_{k=0..floor(n/8)} binomial(n,8\*k).
+
+https://oeis.org/A101551 C(n-2,2)+C(n-5,5)+...+C(n-(3\*floor((n-3)/3)+2),3\*floor((n-3)/3)+2).
+
+https://oeis.org/A26841 a(n) = T(2n,n-4), T given by A026725.
+
+https://oeis.org/A26848 a(n) = T(2n,n-4), T given by A026736.
+
+https://oeis.org/A24934 Sum of remainders n mod p, over all primes p < n.
+
+https://oeis.org/A3235 a(n) = Sum_{k=0..n} (-1)^(n-k) C(n,k)\*C(k^2,n).
+
+https://oeis.org/A340452 E.g.f.: Sum_{n>=0} x^n \* sinh(2^n\*x) / n!.
+
+https://oeis.org/A73358 Binomial transform, alternating in sign, of the tribonacci numbers.
+
+https://oeis.org/A77869 Expansion of (1-x)^(-1)/(1-x+x^3).
+
+https://oeis.org/A277476 E.g.f.: -sinh(x)\*LambertW(-x).
+
+https://oeis.org/A291090 a(n) = A214938(2n).
+
+https://oeis.org/A277462 E.g.f.: cos(x)/(1 + LambertW(-x)).
+
+https://oeis.org/A290905 a(n) = (1/2)\*A290904(n).
+
+https://oeis.org/A96976 Number of walks of length n on P_3 plus a loop at the end.
+
+https://oeis.org/A334921 Expansion of Phi(x) = (1/(1+x))\*Product_{k>=0} (1-(x/(1+x))^2^k).
+
+https://oeis.org/A100394 a(n) is the subscript of the greatest prime factor of (2\*prime(n) + 1).
+
+https://oeis.org/A99214 a(n)=4a(n-1)-4a(n-2)+4a(n-3).
+
+https://oeis.org/A121497 Binomial transform of the characteristic function of the prime numbers (A010051).
+
+https://oeis.org/A100133 a(n) = Sum_{k=0..floor(n/4)} C(n-2k,2k) \* 3^k \* 2^(n-4k).
+
+https://oeis.org/A272172 Triangle read by rows: T(n,k) in which row n lists the first n terms of A000203 in reverse order.
+
+https://oeis.org/A250103 Expansion of (1+x)/(1+x-2\*x^2-3\*x^3).
+
+https://oeis.org/A159288 Expansion of (1 + x + x^2)/(1 - x^2 - 2\*x^3).
+
+https://oeis.org/A290994 p-INVERT of (1,1,1,1,1,...), where p(S) = 1 - S^7.
+
+https://oeis.org/A161566 E.g.f. satisfies: A(x) = exp(2\*x\*exp(x\*A(x))).
+
+https://oeis.org/A295267 Expansion of e.g.f. 2/(1 + sqrt(1 + 4\*LambertW(-x))).
+
+https://oeis.org/A165201 Expansion of 1/(1-x\*c(x)^3), c(x) the g.f. of A000108.
+
+https://oeis.org/A130020 Triangle T(n,k), 0<=k<=n, read by rows given by [1,0,0,0,0,0,0,...] DELTA [0,1,1,1,1,1,1,...] where DELTA is the operator defined in A084938 .
+
+https://oeis.org/A115415 Real part of (n + i)^n, with i=sqrt(-1).
+
+https://oeis.org/A348410 Number of nonnegative integer solutions to n = Sum_{i=1..n} (a_i + b_i), with b_i even.
+
+https://oeis.org/A90134 a(n) = (6\*n!/(n+5)) \*binomial(n+5,n-1)\* 6F6(-n+1, 1/5\*n+1, 1/5\*n+9/5, 1/5\*n+8/5, 1/5\*n+7/5, 1/5\*n+6/5; 7/6, 4/3, 3/2, 5/3, 11/6, 2; -3125/46656), where 6F6(;;) is the generalized hypergeometric series.
+
+https://oeis.org/A27439 Expansion of 1/(1 - 4\*x + 5\*x^2 - 3\*x^3).
+
+https://oeis.org/A82397 Number of directed aggregates of height <= 2 with n cells.
+
+https://oeis.org/A301994 Number of n X 3 0..1 arrays with every element equal to 1, 2 or 4 horizontally or antidiagonally adjacent elements, with upper left element zero.
+
+https://oeis.org/A330793 a(n) = A193737(2\*n, n).
+
+https://oeis.org/A47099 a(n) = A047098(n)/2.
+
+https://oeis.org/A289387 a(n) = Sum_{k>=0} (-1)^k\*binomial(n, 5\*k+2).
+
+https://oeis.org/A26070 a(n) = number of (s(0), s(1), ..., s(n)) such that every s(i) is an integer, s(0) = 0, |s(i) - s(i-1)| = 1 for i = 1,2; |s(i) - s(i-1)| <= 1 for i >= 3, s(n) = 3. Also a(n) = T(n,n-3), where T is the array defined in A024996.
+
+https://oeis.org/A211288 a(n) = number of n-lettered words in the alphabet {1, 2, 3} with as many occurrences of the substring (consecutive subword) [1, 1, 2] as of [1, 1, 3].
+
+https://oeis.org/A204205 Triangle based on (0,1/5,1) averaging array.
+
+https://oeis.org/A159284 Expansion of x\*(1+x)/(1-x^2-2\*x^3).
+
+https://oeis.org/A188464 Diagonal sums of triangle A188463.
+
+https://oeis.org/A122368 Dimension of 4-variable non-commutative harmonics (twisted derivative). The dimension of the space of non-commutative polynomials in 4 variables which are killed by all symmetric differential operators (where for a monomial w, d_{xi} ( xi w ) = w and d_{xi} ( xj w ) = 0 for i/=j).
+
+https://oeis.org/A348912 G.f. A(x) satisfies: A(x) = (1 + 2 \* x \* A(x)^3) / (1 - x).
+
+https://oeis.org/A23626 Self-convolution of (1, p(1), p(2), ...).
+
+https://oeis.org/A295098 a(n) = n! \* [x^n] exp(n\*x)\*(1 + exp(x^2/2)\*x\*(1 + sqrt(Pi/2)\*erf(x/sqrt(2)))).
+
+https://oeis.org/A19497 Number of ternary search trees on n keys.
+
+https://oeis.org/A113956 Expansion of (1/((1-4x)c(x)))/(1-x^2c(x)/sqrt(1-4x)), c(x) the g.f. of A000108.
+
+https://oeis.org/A349255 G.f. A(x) satisfies: A(x) = 1 / ((1 + x) \* (1 - 2 \* x \* A(x)^2)).
+
+https://oeis.org/A344396 a(n) = binomial(2\*n + 1, n)\*hypergeom([-(n + 1)/2, -n/2], [n + 2], 4).
+
+https://oeis.org/A23862 a(n) = 1\*t(n) + 2\*t(n-1) + ... + k\*t(n+1-k), where k=floor((n+1)/2) and t = A008578 ({1} U primes).
+
+https://oeis.org/A291015 p-INVERT of (1,1,1,1,1,...), where p(S) = (1 - S^3)^2.
+
+https://oeis.org/A109313 Difference between prime factors of n-th semiprime.
+
+https://oeis.org/A25181 a(n) = number of (s(0), s(1), ..., s(n)) such that s(i) is an integer, s(0) = 0, |s(1)| = 1, |s(i) - s(i-1)| <= 1 for i >= 2, s(n) = 3. Also a(n) = T(n,n-3), where T is the array defined in A025177.
+
+https://oeis.org/A349256 G.f. A(x) satisfies: A(x) = 1 / ((1 + x) \* (1 - 3 \* x \* A(x)^2)).
+
+https://oeis.org/A65204 Least m such that A065203(m)=n.
+
+https://oeis.org/A19302 Binomial transform of Thue-Morse sequence A010060.
+
+https://oeis.org/A135871 Triangle by columns: A013610 signed and interleaved with zeros.
+
+https://oeis.org/A190863 E.g.f. exp(x\*sqrt(1+x^2)).
+
+https://oeis.org/A270386 Expansion of (4/(3\*x/(1-x))) \* sin((1/3)\*arcsin(sqrt(27\*x/4/(1-x))))^2.
+
+https://oeis.org/A219706 Total number of nonrecurrent elements in all functions f:{1,2,...,n}->{1,2,...,n}.
+
+https://oeis.org/A216534 Number of cycles in all partial functions on {1,2,...,n}.
+
+https://oeis.org/A27282 a(n) = self-convolution of row n of array T given by A026584.
+
+https://oeis.org/A239295 Number of words of length n over the alphabet {0,...,n-1} that avoid the pattern 123.
+
+https://oeis.org/A105217 Let b(n) denote the Lucas numbers, A000032: a(n) = Sum{k=0..n}C(n,k)^2\*(n-k)!\*b(k).
+
+https://oeis.org/A110190 Number of (1,0)-steps on the lines y=0 and y=1 in all Schroeder paths of length 2n (a Schroeder path of length 2n is a path from (0,0) to (2n,0), consisting of steps U=(1,1), D=(1,-1) and H=(2,0) and never going below the x-axis).
+
+https://oeis.org/A226805 P_n(n+1) where P_n(x) is the polynomial of degree n-1 which satisfies P_n(i) = i^i for i = 1,...,n.
+
+https://oeis.org/A204123 Symmetric matrix based on f(i,j)=max([i/j],[j/i]), where [ ]=floor, by antidiagonals.
+
+https://oeis.org/A302581 a(n) = n! \* [x^n] -exp(-n\*x)\*log(1 - x).
+
+https://oeis.org/A277956 a(n) = (n+2)\*Sum_{i=0..n}(binomial(3\*n-2\*i+1, n-i)/(2\*n-i+2)).
+
+https://oeis.org/A129137 Number of trees on [n], rooted at 1, in which 2 is a descendant of 3.
+
+https://oeis.org/A268542 The diagonal of the rational function 1/(1 - x - y - x y - x z - y z).
+
+https://oeis.org/A333094 a(n) is the n-th order Taylor polynomial (centered at 0) of c(x)^(2\*n) evaluated at x = 1, where c(x) = (1 - sqrt(1 - 4\*x))/(2\*x) is the o.g.f. of the Catalan numbers A000108.
+
+https://oeis.org/A84370 Convolution of odd primes with themselves.
+
+https://oeis.org/A203019 Number of elevated peakless Motzkin paths.
+
+https://oeis.org/A134544 A051731 \* A002260.
+
+https://oeis.org/A295407 a(n) = n! \* Laguerre(n, 3\*n, -n).
+
+https://oeis.org/A304249 Triangle T(n,k) = 3\*T(n-1,k) + T(n-2,k-1) for k = 0..floor(n/2), with T(0,0) = 1 and T(n,k) = 0 for n < 0 or k < 0, read by rows.
+
+https://oeis.org/A134545 A051731 \* A004736.
+
+https://oeis.org/A25129 a(n) = p(1)p(n) + p(2)p(n-1) + ... + p(k)p(n-k+1), where k = [ n/2 ], p = A000040, the primes.
+
+https://oeis.org/A3099 a(n) = Sum_{k=0..n} binomial(n,k^2).
+
+https://oeis.org/A7889 Number of intransitive (or alternating, or Stanley) trees: vertices are [0,n] and for no i<j<k are both (i,j) and (j,k) edges.
+
+https://oeis.org/A305837 Triangle read by rows: T(0,0) = 1; T(n,k) = 5\*T(n-1,k) + T(n-2,k-1) for k = 0..floor(n/2); T(n,k)=0 for n or k < 0.
+
+https://oeis.org/A259861 a(n+8)+34\*a(n+4)+a(n)=0 with a(0)-a(7) as shown.
+
+https://oeis.org/A208425 G.f.: Sum_{n>=0} (3\*n)!/n!^3 \* x^(2\*n)/(1-x)^(3\*n+1).
+
+https://oeis.org/A329692 Number of excursions of length n with Motzkin-steps avoiding the consecutive steps UU, HH, HD and DH.
+
+https://oeis.org/A274673 Diagonal of the rational function 1/(1 - x - y - z - x y + x y z).
+
+https://oeis.org/A317014 Triangle read by rows: T(0,0) = 1; T(n,k) = 7 \* T(n-1,k) + T(n-2,k-1) for k = 0..floor(n/2). T(n,k)=0 for n or k < 0.
+
+https://oeis.org/A97499 p^q + q^p for consecutive primes p and q.
+
+https://oeis.org/A101496 Expansion of (1-x^2)/(1-x-x^2+x^3+x^4).
+
+https://oeis.org/A14178 a(n) = Sum_{k = 0..n} binomial(n,k)^3\*binomial(n+k,k).
+
+https://oeis.org/A22209 Gaussian binomial coefficients [ n,10 ] for q = 4.
+
+https://oeis.org/A128099 Triangle read by rows: T(n,k) is the number of ways to tile a 3 X n rectangle with k pieces of 2 X 2 tiles and 3n-4k pieces of 1 X 1 tiles (0 <= k <= floor(n/2)).
+
+https://oeis.org/A307911 Coefficient of x^n in expansion of (1 - n\*x - n\*x^2)^n.
+
+https://oeis.org/A218693 Sum_{k=0..n} C(n,k)\*C(n+k,k)^3.
+
+https://oeis.org/A202814 Moments of the quadratic coefficient of the characteristic polynomial of a random matrix in U(1) X U(1) (embedded in USp(4)).
+
+https://oeis.org/A22210 Gaussian binomial coefficients [ n,11 ] for q = 4.
+
+https://oeis.org/A334262 E.g.f. A(x) satisfies: A(x) = 2 \* x / (exp(A(x)) \* (2 + A(x))).
+
+https://oeis.org/A331795 a(n) = Sum_{k=0..n} (-n)^k \* binomial(n+1,k) \* binomial(n+1,k+1).
+
