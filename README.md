@@ -5060,3 +5060,193 @@ def f0(X):
 for x in range(32):
   print (f0(x))
 ```
+
+### a(n) = Sum_{d|n} sigma(n/d)*d^3.
+
+https://oeis.org/A27847 : 1 11 31 95 131 341 351 775 850 1441 1343 2945 2211 3861 4061 6231 4931 9350 6879 12445 10881 14773 12191 24025 16406 243
+21 22990 33345 24419 44671 29823 49911 41633 54241 45981 80750 50691 75669 68541 101525 68963 119691 79551 127585 111350
+
+size 240, time 664776: loop2 ((loop ((loop (loop2 ((loop (x * x) 1 (loop (loop2 ((if (y mod x) <= 0 then (x + y) else 0) div x) 0 1 (1 + (loop (x 
+- (if (y - x) <= 0 then y else 0)) (2 + (2 * (2 + (2 + (2 + (x div (2 + (2 * (2 + (2 * (2 * (2 + (2 + 2))))))))))))) x)) (1 - (loop (x - (if x <= 
+0 then 0 else y)) (2 + (2 * (2 + ((2 + (2 + (2 + (x div (2 * ((2 * (2 + 2)) * (2 + 2))))))) + 0)))) (1 + x)))) 1 y)) + x) (1 + y) (x - (x div 2)) 
+1 (((x * x) - x) div 2)) 1 (x - 1)) * x) 1 (loop (loop2 ((if (y mod x) <= 0 then (x + y) else 0) div x) 0 1 (1 + (loop (x - (if (y - x) <= 0 then 
+y else 0)) (2 + (2 * (2 + (2 + (2 + (x div (2 + (2 * (2 + (2 * (2 * (2 + (2 + 2))))))))))))) x)) (1 - (loop (x - (if x <= 0 then 0 else y)) (2 + (
+2 * (2 + ((2 + (2 + (2 + (x div (2 * ((2 * (2 + 2)) * (2 + 2))))))) + 0)))) (1 + x)))) 1 y)) + x) (1 + y) (x - (x div 2)) 1 (((x * x) - x) div 2)
+
+K K F B L K H K L D A I K G A B B K L K E L A I E C C C C C K C C C C C C C C D D F F D F D G D D D F D K J D B K K A L I E C C C C C C K C C C C 
+D F C C D F F G D D D A D D F D B K D J E N B L J J K D B L D K K C G E B K K F K E C G N B K B E J K F B L K H K L D A I K G A B B K L K E L A I 
+E C C C C C K C C C C C C C C D D F F D F D G D D D F D K J D B K K A L I E C C C C C C K C C C C D F C C D F F G D D D A D D F D B K D J E N B L J J K D B L D K K C G E B K K F K E C G N
+
+size 122, time 4070570: loop2 ((loop ((loop2 ((loop (loop2 ((if (x mod y) <= 0 then y else 0) * y) 0 1 (loop (x - (if x <= 0 then 0 else y)) (2 + ((x div 2) div 2)) x) (loop (x - (if (x - y) <= 0 then 0 else y)) (2 + ((x div 2) div 2)) x)) 1 y) + x) (y - 1) x 0 (loop (x + y) x 0)) * x) 1 (loop (loop2 (if (x mod y) <= 0 then y else 0) 0 1 (loop (x - (if x <= 0 then 0 else y)) (2 + ((x div 2) div 2)) x) (loop (x - (if (x - y) <= 0 then 0 else y)) (1 + ((x div 2) div 2)) x)) 1 y)) + x) (1 + y) x 1 (loop (x + y) x 2)
+
+K L H L A I L F A B K K A L I E C K C G C G D K J K K L E A L I E C K C G C G D K J N B L J K D L B E K A K L D K A J N K F B K L H L A I A B K K A L I E C K C G C G D K J K K L E A L I E B K C G C G D K J N B L J J K D B L D K B K L D K C J N
+
+Python version of the fast program (size 240):
+
+```
+def f7(X):
+    x = X
+    for y in range (1,(2 + (2 * (2 + (2 + (2 + (X // (2 + (2 * (2 + (2 * (2 * (2 + (2 + 2))))))))))))) + 1):
+        x = x - (y if (y - x) <= 0 else 0)
+    return x
+
+def f8(X):
+    x = 1 + X
+    for y in range (1,(2 + (2 * (2 + ((2 + (2 + (2 + (X // (2 * ((2 * (2 + 2)) * (2 + 2))))))) + 0)))) + 1):
+        x = x - (0 if x <= 0 else y)
+    return x
+
+def f6(X):
+    x,y = 1 + f7(X), 1 - f8(X)
+    for z in range (1,1 + 1):
+        x,y = (((x + y) if (y % x) <= 0 else 0) // x), 0
+    return x
+
+def f5(X,Y):
+    x = Y
+    for y in range (1,1 + 1):
+        x = f6(x)
+    return x
+
+def f4(X,Y):
+    x = f5(X,Y)
+    for y in range (1,1 + 1):
+        x = x * x
+    return x
+
+def f3(X):
+    x,y = 1, ((X * X) - X) // 2
+    for z in range (1,(X - (X // 2)) + 1):
+        x,y = (f4(x,y) + x), (1 + y)
+    return x
+
+def f2(X):
+    x = X - 1
+    for y in range (1,1 + 1):
+        x = f3(x)
+    return x
+
+def f11(X):
+    x = X
+    for y in range (1,(2 + (2 * (2 + (2 + (2 + (X // (2 + (2 * (2 + (2 * (2 * (2 + (2 + 2))))))))))))) + 1):
+        x = x - (y if (y - x) <= 0 else 0)
+    return x
+
+def f12(X):
+    x = 1 + X
+    for y in range (1,(2 + (2 * (2 + ((2 + (2 + (2 + (X // (2 * ((2 * (2 + 2)) * (2 + 2))))))) + 0)))) + 1):
+        x = x - (0 if x <= 0 else y)
+    return x
+
+def f10(X):
+    x,y = 1 + f11(X), 1 - f12(X)
+    for z in range (1,1 + 1):
+        x,y = (((x + y) if (y % x) <= 0 else 0) // x), 0
+    return x
+
+def f9(X,Y):
+    x = Y
+    for y in range (1,1 + 1):
+        x = f10(x)
+    return x
+
+def f1(X,Y):
+    x = f9(X,Y)
+    for y in range (1,1 + 1):
+        x = f2(x) * x
+    return x
+
+def f0(X):
+    x,y = 1, ((X * X) - X) // 2
+    for z in range (1,(X - (X // 2)) + 1):
+        x,y = (f1(x,y) + x), (1 + y)
+    return x
+
+for x in range(32):
+    print (f0(x))
+```
+
+Python version of the slow program (size 122):
+
+```
+def f5(X):
+    x = X
+    for y in range (1,(2 + ((X // 2) // 2)) + 1):
+        x = x - (0 if x <= 0 else y)
+    return x
+
+def f6(X):
+    x = X
+    for y in range (1,(2 + ((X // 2) // 2)) + 1):
+        x = x - (0 if (x - y) <= 0 else y)
+    return x
+
+def f4(X):
+    x,y = f5(X), f6(X)
+    for z in range (1,1 + 1):
+        x,y = ((y if (x % y) <= 0 else 0) * y), 0
+    return x
+
+def f3(X,Y):
+    x = Y
+    for y in range (1,1 + 1):
+        x = f4(x)
+    return x
+
+def f7(X):
+    x = 0
+    for y in range (1,X + 1):
+        x = x + y
+    return x
+
+def f2(X):
+    x,y = 0, f7(X)
+    for z in range (1,X + 1):
+        x,y = (f3(x,y) + x), (y - 1)
+    return x
+
+def f10(X):
+    x = X
+    for y in range (1,(2 + ((X // 2) // 2)) + 1):
+        x = x - (0 if x <= 0 else y)
+    return x
+
+def f11(X):
+    x = X
+    for y in range (1,(1 + ((X // 2) // 2)) + 1):
+        x = x - (0 if (x - y) <= 0 else y)
+    return x
+
+def f9(X):
+    x,y = f10(X), f11(X)
+    for z in range (1,1 + 1):
+        x,y = (y if (x % y) <= 0 else 0), 0
+    return x
+
+def f8(X,Y):
+    x = Y
+    for y in range (1,1 + 1):
+        x = f9(x)
+    return x
+
+def f1(X,Y):
+    x = f8(X,Y)
+    for y in range (1,1 + 1):
+        x = f2(x) * x
+    return x
+
+def f12(X):
+    x = 2
+    for y in range (1,X + 1):
+        x = x + y
+    return x
+
+def f0(X):
+    x,y = 1, f12(X)
+    for z in range (1,X + 1):
+        x,y = (f1(x,y) + x), (1 + y)
+    return x
+
+for x in range(32):
+    print (f0(x))
+```
