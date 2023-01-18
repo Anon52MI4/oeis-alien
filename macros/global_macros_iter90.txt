@@ -1,0 +1,286 @@
+79633: O, K D
+54708: S, K C
+33833: X, K B
+29980: T, K D K
+19328: V, K K F
+19030: R Q, B C D
+18901: R, K F
+17424: Q, K K
+16992: R W, C C C D C F D
+15454: U, C K
+15380: P Q, C C D
+13827: P R, B K D K D
+12859: Q T, B C D C F
+12643: Q X, K F L
+12287: W U, B C D C D
+10641: P, D K
+9110: T W, B C C D C F D
+8709: X W, B B C D C F D
+7332: R T, C C D C F
+6307: O W, C C C D C F
+6149: W, F K
+5607: U W, K K K F F
+5498: O T, C D C
+4681: P P, K B J
+4676: S P, K D K B J
+4675: T X, K K D C F
+4269: Q U, C K K D K D F
+3911: S W, D K D K B J
+3172: O S, K K D K B
+3065: P V Q, C C C D C F D H
+3025: Q V, B B C D
+2962: P T, K K D K B J
+2962: Q P P, L K F L K B
+2960: U V, B B C D C F
+2913: V T, K D K D K D
+2696: W T, K D K D C F
+2691: O P, K D K B
+2453: S U, B K D K D C
+2433: R U, K D C F K
+2187: V Q, K D C F
+2177: W X, K K F F B
+2033: Q S, B C D C
+1975: W V, B C C D C F
+1946: Q R, K K D K D
+1922: V W, C F D
+1914: P T W, K K B L D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B K D K D M
+1805: O R P, C C C D C F D F
+1722: Q Q P, C C C D C F D K F D
+1593: Q P, K D K D
+1570: T P, D K B J
+1507: U T, K K D K D F
+1418: O U, C C D C
+1333: U S, B C C D
+1284: W S, K D K D F
+1283: T R, K D K D C
+1114: R V P, B B C D C F D F
+1091: P V, C C D C F D
+1026: W W, D K D K B
+983: U U, D C F D
+974: T V, C D C D
+971: O V, C K K D K
+960: W T P, C C D C F D K F D L B J
+921: O Q R, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K C G B J J C K D K C H C J F B C D C D F F
+906: S O P, C C C D C F D K F
+878: T X P, K L F L K C G C K D K C H B J B C C D C F D N
+846: P U, D K D K D
+832: X R, D K D C
+775: T U, C D C F D
+753: Q W, B C C D C
+710: X Q, K D K D K
+679: U U P, C D C F D K F D L B J
+677: P O P, C K K D K D F D
+625: S P P, L K F L K
+601: O R, D C F
+600: V X, C C C D
+596: R R P, K K F B K K D K C G B J J
+589: S T, D C F K
+570: P X, B C D C F D
+564: V S, C D C F
+558: S V, K K F F
+557: R T P, C C D C F D K F D L
+442: R X, B K K D K
+439: X T, D K D C F
+439: T U P, C C D C F D K F D L B
+417: P W, C K K D
+400: Q O P, C C D C F D K F
+370: X U, C K K D K D
+367: S R P, L K F L K B B C
+352: P T R, K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K C G
+262: R V, B B C D C
+256: X Q P, K K F B K K D
+244: O V V, C D C F D G
+240: S Q P, C C D C F D K F D
+232: O V Q, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J F
+226: S S P, K K F B K K D K C
+213: S X, B B C
+208: V S P, K K F B K K D K C G B
+191: U W P, K K D K C H K K F B K K D K C G B J J J
+160: O P V, K K F B L K F L K C G B B C D C D N J B C
+157: P Q R, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K C G B J J C K D K C H C J F
+148: O O P, K K D K D F D
+145: T T, D K D F
+145: O W P, K K D K C H K K F B K K D K C G
+119: X P P, C K K D K D F D K
+110: V T P, K F B K K D K C
+108: O T W, K B L D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B K D K D M
+95: T O P, K D K D F D
+94: U Q P, C D C F F
+85: Q S P, K F B K K D K C G B J J
+82: O O Q, K L F L K C G C K D K C H B J B C C D C F D
+82: U Q R, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K C G B J J C K D K C H C J
+80: P R P, C D C F D K F D
+80: P S R, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K C G B J
+79: S T W, K K B L D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B K D K D
+71: Q V Q, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K D K
+64: P Q P, C C D C F D F
+62: P U P, L K C G B C K C H F D B C C D C F D N
+61: W O P, C D C F D K F
+59: P W W, D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B K D K D
+53: W R P, K K F B K K D K C G
+52: S W P, K D K C H K K F B K K D K C G B J J J
+47: T W W, K K B L D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J
+46: Q W W, D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B K D K D M
+41: V T Q, K C H K K F B K K D K C G B J J J
+33: V Q P, K K K F F B K K
+33: W X P, K C G C K D K C H B J B C C D C F D
+33: W T Q, K C G C K D K C H B J B
+25: O X, C C C D C
+25: O S P, D C F D K F D
+24: R W W, K B L D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G
+22: R W P, F L K C G C K D K C H B J B C C D C F D N
+21: O T P, C F D K F D
+21: U V Q, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K D
+19: Q U P, L K C G B C K C H F D B C C D C F D
+19: W W P, K K D K C H K K F B K K D K C G B J J
+18: W U Q, K D K C H K K F B K K D K C G B
+17: R V Q, K F B L K F L K C G B B C D C D N J B C D C D K C H B J F
+16: U R P, K F B K K D
+15: T P P, D C F D K F
+15: O Q P, C D C F D F
+15: X U Q, C H K K F B K K D K C G B J J J
+13: W Q P, L K F L K B B
+13: V W P, K D K C H K K F B K K D K C G B J J
+12: W P Q, L K C G C K D K C H B J B C C D
+12: S R Q, K L F L K C G C K D K C H B J
+12: W V Q, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K
+12: O W W, L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B K D K
+11: U V P, K K F B K K
+10: W R, C D K
+10: X V Q, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K
+10: T V W, K B L D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J
+10: U W W, L D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B
+10: W W W, L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B K D
+9: W P P, K K F B K K D K
+9: P W P, K D K C H K K F B K K D K C G
+9: P O Q, L F L K C G C K D K C H B J B C C D C F D N
+9: Q U W, K K B L D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B K D
+8: W O Q, K L F L K C G C K D K C H B J B C C D
+8: P R Q, C K D K C H B J B C C D C F D
+8: S V Q, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J
+8: U V W, K K B L D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B
+8: S W W, B L D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J
+7: P S P, C F D K F
+7: U S P, K C C C D C F D
+7: O U Q, K C H K K F B K K D K C G B J J
+7: R Q R, K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K C G B J J C K D K C H C J F B C D C D F F
+7: T S S, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F
+7: S V W, L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B K D K D
+6: R O Q, K L F L K C G C K D K C H B J B C C D C F
+6: S W Q, B L K F L K C G B B C D C D N J B C D C D K C H B J F
+5: T S P, K K F B K K D K C G B J
+5: S U P, K C G B C K C H F D B C C D C F D N
+5: W V P, B K K D K C G B J J
+5: V P Q, K L F L K C G C K D K C H B J B C
+5: U T Q, D K C H K K F B K K D K C G B J J J
+5: Q Q R, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K C G B J J C K D K C H C J F B C D C D F
+5: W O S, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K
+5: P U W, L D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B K D K D
+4: X X, K B C
+4: T T P, C C C D C F F
+4: X T P, F L K C G B C K C H F D B C C D C F D N
+4: O V P, C D C F D K F D L B
+4: X T Q, K C H K K F B K K D K C G
+4: R U Q, L K C G C K D K C H B J
+4: O P R, K F B L K F L K C G B B C D C D N J B C D C D
+4: R Q S, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K
+4: X X S, K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K C G B J J C K D K C H C J F B C D
+4: Q T W, K B L D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B K D K D
+4: W U W, K K B L D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B K
+4: X W W, D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B K D K
+3: X O P, F D K D K B J
+3: O P P, D C F D K
+3: U T P, K F B K K D K C G B J
+3: S P Q, C G C K D K C H B J B C C D C F D
+3: O T Q, C K D K C H B J B C C D C
+3: T Q W, B C D C D K C H B J F K K F B K K D K C G B J J C K D K C H C J F
+2: O Q, B K D
+2: S Q, F K D
+2: T Q, K K D
+2: S R, F K D K
+2: X S, D K K
+2: U X, C F K
+2: U P P, K F B K K D K
+2: V V P, F B K K D K C G B J
+2: Q R Q, K D K C H B J B C C D C F D N
+2: T T Q, K L F L K C G C K D K C H
+2: T V Q, C C D C F D H
+2: U W Q, K K F B L K F L K C G B B C D C D N J B C D C D K C H
+2: V W Q, B L K F L K C G B B C D C D N J B C D C D K C H B J
+2: O X Q, K F B L K F L K C G B B C D C D N J B C D C D K C H
+2: W X Q, B L K F L K C G B B C D C D N J B C D C D K C H
+2: Q O R, F L K C G B B C D C D N J B C D C D K C H B J F
+2: X P R, K F B L K F L K C G B B C D C D N J B C D C
+2: R T R, B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K C G B J
+2: S U S, K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K
+2: U X S, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K C G B J J C K D K C H C J F B C
+2: U O T, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K C G B J J C K D K C H C J F B
+2: Q R T, B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K C G B J J C K D K C H C J F B C D
+2: T S V, L K F L K C G B B C D C D N J B C D C D
+2: S Q W, K K F B L K F L K C G B B C D C D N J
+2: W T W, K K B L D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B K D K
+2: V U W, D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B K D K D
+2: O V W, K B L D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B
+2: Q V W, B L D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B K
+1: W Q, L D K
+1: R R, K F K
+1: S S, K F B
+1: V U, K D F
+1: V V, C K D K
+1: R O P, C C D C F D K
+1: U O P, C C C D C F D K
+1: V P P, C C D C F F
+1: R S P, C D C F D N
+1: P T P, K C C C D C F
+1: Q T P, K F B K K D K C G
+1: S T P, F B K K D K C G B J J
+1: O U P, F L K C G B C K C H F D B C C D C F D
+1: R U P, F L K C G B C K C H F D B C C D C F
+1: S V P, K B B C D
+1: T V P, K B B C D C
+1: P X P, L K C G C K D K C H B J B C C D C F D N
+1: X X P, L K C G C K D K C H B J B C C D C F
+1: U O Q, C G C K D K C H B J B C C D C F D N
+1: X O Q, K C G C K D K C H B J B C C D C F
+1: O P Q, L F L K C G C K D K C H B J B C C D
+1: R Q Q, C K D K C H B J B C C D C F D N
+1: T R Q, L K C G C K D K C H B J B C
+1: U R Q, F L K C G C K D K C H B J B
+1: W R Q, C G C K D K C H B J B C C D
+1: O S Q, C K D K C H B J B C C D C F
+1: Q S Q, D K C H B J B C C D C F D N
+1: T S Q, K C G C K D K C H B J B C
+1: R T Q, L F L K C G C K D K C H B
+1: P U Q, K D K C H K K F B K K D K C G B J
+1: S U Q, C G C K D K C H B J B C
+1: U U Q, C K D K C H B J B C C D
+1: T W Q, F B L K F L K C G B B C D C D N J B C D C D K C H B J
+1: X W Q, L K F L K C G B B C D C D N J B C D C D K C H B J F
+1: T X Q, F B L K F L K C G B B C D C D N J B C D C D K C H
+1: S O R, K K F B L K F L K C G B B C D C D N J B C D C D
+1: U O R, B L K F L K C G B B C D C D N J B C D C D K C
+1: P P R, L K C G B B C D C D N J B C D C D K C H B J F
+1: V Q R, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K C G B J J C K D K C H C J F B C D C D
+1: O S R, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K C G B J J
+1: T T R, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K
+1: O V R, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K C G B J J C
+1: R V R, B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K C G B J J C K D K C H
+1: R W R, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K C G B J J C K
+1: S X R, K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K
+1: S T S, K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B
+1: S W S, K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K C G B J J C K D K C H C J F B C D C
+1: T W S, K K F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K C G B J J C K D K C H C J F B C D
+1: P P T, F B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K C G B J J C K D K C H C J F B C D
+1: R Q T, B L K F L K C G B B C D C D N J B C D C D K C H B J F K K
+1: S R T, B L K F L K C G B B C D C D N J B C D C D K C H B J F K K F
+1: O W T, F L K C G B B C D C D N J B C D C D K C H B J F K K F B K K D K C G B J J C K D K C H C J F B C D C
+1: T X U, K F B L K F L K C G B B C D C D N J B C D
+1: O T V, G B B C D C D N J B C D C D K C H B J F
+1: O W V, J B C D C D K C H B J F K K F B K K D K C G B J J C K D K C H C
+1: P O W, K F B L K F L K C G B B C D C D N J B
+1: Q Q W, C G B B C D C D N J B C D C D K C H B
+1: T T W, B L D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B K D K D
+1: U T W, K B L D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B K D K
+1: R U W, D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B K D K D M
+1: P V W, L D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B K D
+1: V W W, D L D H C K I C K C C C C D C F D F G D B K D K D J E B K C G J B K
